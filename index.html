@@ -1,0 +1,45 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Básica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="container">
+        <h1>
+            Minha Primeira Calculadora
+        </h1>
+        <div>
+            <ul class="container-inputs">
+                <li><label>Numero 1:
+                        <input type="number" name="nome" class="n1" placeholder="Digite o primeiro Número"
+                            id="n1"></label><br></li>
+                <li>
+                    <label>Numero 2:
+                        <input type="number" name="n2" class="n2" id="n2" placeholder="Digite o segundo Número">
+                    </label>
+                </li>
+            </ul>
+            <ul class="container-botoes">
+                <li><input type="button" value="+" onclick="calcular('+')"></li>
+                <li><input type="button" value="-" onclick="calcular('-')"></li>
+                <li><input type="button" value="*" onclick="calcular('*')"></li>
+                <li><input type="button" value="/" onclick="calcular('/')"></li>
+                <li><input type="button" value="%" onclick="calcular('%')"></li>
+            </ul>
+                
+            <ul class="container-resultado">
+                <div id="resultado" style="color: white;">Resultado: </div>
+            </ul>
+
+        </div>
+
+
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>

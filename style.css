@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+
+    background-color: lightgray;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+section {
+    border: 3px solid white;
+    margin: 20px;
+    background-color: gray;
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+
+}
+
+section>h1,
+label,
+p {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container-inputs li {
+    list-style: none;
+}
+
+section#container {
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.container-inputs {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-botoes {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-resultado {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.container-botoes li>input {
+    width: 40px;
+    height: 40px;
+}
+
+.container-inputs input {
+    width: 300px;
+    height: 45px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+ul.container-inputs>li {
+    text-decoration: none;
+}
+
+
+
+.container-botoes li {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+li {
+    text-decoration: none;
+}
+
+ul>li>input {
+    transition: background-color 0.3s, border-radius 0.5s;
+    border-radius: 50%;
+    border: none;
+}
+
+
+ul>li>input:hover {
+    background-color: lightgray;
+    border-radius: 5px;
+    border-color: white;
+    
+
+    ul>li>input {
+        transition: background-color 0.3s, border-radius 0.3s;
+    }
+
+}
+
+#calculadora {
+    margin-top: 20px;
+}
+
+.campoNumero {
+    padding: 10px;
+
+
+    background-color: red;
+
+}
+
+input {
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+div#resultado {
+    margin-top: 50px;
+    font-weight: bolder;
+}
